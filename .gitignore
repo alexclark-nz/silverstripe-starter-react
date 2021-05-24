@@ -1,0 +1,17 @@
+/silverstripe-cache/
+/.env
+/.env.*
+/vendor/
+/themes/simple/
+/_resources/
+/public/_resources/
+/node_modules/
+.idea
+.DS_Store
+.editorconfig
+
+# Don't track anything that's compiled from the theme's src directory
+/themes/site/dist/
+/public/fonts/
+/public/images/
+mix-manifest.json

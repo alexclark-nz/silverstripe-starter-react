@@ -1,0 +1,47 @@
+{
+  "name": "silverstripe-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx mix",
+    "dev": "npm run watch",
+    "watch": "npx mix watch",
+    "build": "npx mix build -p",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-react": "^7.13.13",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-wesbos": "^1.0.1",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "laravel-mix": "^6.0.0-beta.17",
+    "postcss": "^8.2.4",
+    "postcss-import": "^14.0.0",
+    "postcss-nested": "^5.0.3",
+    "prettier": "^2.3.0"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.2",
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.2.1",
+    "axios": "^0.21.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.6.6",
+    "tailwindcss": "^2.1.2"
+  }
+}
