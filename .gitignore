@@ -1,6 +1,7 @@
 /silverstripe-cache/
 /.env
-/.env.*
+/.env.staging
+/.env.production
 /vendor/
 /themes/simple/
 /_resources/
