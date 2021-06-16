@@ -4,6 +4,8 @@ module.exports = {
         './themes/site/**/*.ss',
         './themes/site/**/*.js',
         './themes/site/**/*.jsx',
+        './themes/site/**/*.ts',
+        './themes/site/**/*.tsx',
     ],
     darkMode: false, // or 'media' or 'class'
     theme: {
@@ -34,8 +36,5 @@ module.exports = {
     variants: {
         extend: {},
     },
-    plugins: [
-        require('@tailwindcss/forms'),
-        require('@tailwindcss/typography'),
-    ],
+    plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography'), require('@tailwindcss/aspect-ratio')],
 };
